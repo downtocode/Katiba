@@ -1,0 +1,41 @@
+{
+  "type": "object",
+  "properties": {
+    "Ibara": {
+      "type": "object",
+      "properties": {
+        "Kichwa": {
+          "type": "string"
+        },
+        "Namba": {
+          "type": "number"
+        },
+        "Content": {
+          "type": "string"
+        }
+      },
+      "Sura": {
+        "type": "object",
+        "properties": {
+          "Kichwa": {
+            "type": "string"
+          },
+          "Namba": {
+            "type": "number"
+          }
+        }
+      },
+      "Sehemu": {
+        "type": "object",
+        "properties": {
+          "Kichwa": {
+            "type": "string"
+          },
+          "Namba": {
+            "type": "number"
+          }
+        }
+      }
+    }
+  }
+}
