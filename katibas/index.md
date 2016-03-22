@@ -1,6 +1,11 @@
 ---
 title: Series home
 style: home
+published: true
 ---
 
-If you're creating one or more books in a series, this index page is a good place to keep information about the books, like basic metadata and marketing copy. It won't be included in the output versions of your books (e.g. the print PDF or epub), but it can be a landing page for a series website.
+
+This series contains three different versions of the constitution of the United Republic of Tanzania:
+1. The Judge Warioba draft.
+2. The second draft.
+3. The current constitution in effect.
