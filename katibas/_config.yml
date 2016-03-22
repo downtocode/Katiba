@@ -1,14 +1,14 @@
 # Add your imprint or brand name here, it will appear in navigation.
-publisher: "Publisher name"
+publisher: "Tanzania"
 
 # Your publisher name will link to this URL in navigation.
 publisher-url: "http://example.com"
 
 # The name of the series of books in this folder.
-name: "Katiba za Jamhuri ya Muungano wa Tanzania"
+name: "Katiba Yangu"
 
 # A one-liner about this series. Useful for Open Graph metadata.
-description: "A description of this series"
+description: "Katiba za Jamhuri ya Muungano wa Tanzania"
 
 # The primary language used in this series. You can set the language for each book individually below at 'defaults'. 
 # To understand what language tags to use, read: http://www.w3.org/International/articles/language-tags/ 
@@ -47,31 +47,44 @@ defaults:
         scope: # First we set defaults for all files in this series folder (an empty string "" for path means all files).
             path: ""
         values:
-            author: "Author name"
+            author: "The United Republic of Tanzania"
             language: "sw"
             publication-date: "2015-12-01"
             layout: "default"
 #            layout: "epub"
             style: "chapter"
-            stylesheet-print: "print.css"
-            stylesheet-web: "web.css"
-            stylesheet-epub: "epub.css"
+            stylesheet-print: "print-katiba.css"
+            stylesheet-web: "web-katiba.css"
+            stylesheet-epub: "epub-katiba.css"
             contents: "0-3-contents.html"
             language: "sw"
             isbn-print: ""
             isbn-epub: ""
             uuid: ""
-            images-folder: images
-            description: ""
     -
-        scope: # Now enter details for your first book. The `path` is the book's folder. The `values` are specific to the book in that folder. Add values to override the defaults above per book. Remember to indent with spaces, not tabs, for valid YAML.
+        scope: # rasimu ya Warioba
             path: "rasimu-1"
         values:
             book-title: "Rasimu ya Katiba ya Jamhuri ya Muungano wa Tanzania"
             language: "sw"
-            stylesheet-print: "print-rasimu-1.css"
-            stylesheet-web: "web-rasimu-1.css"
-            stylesheet-epub: "epub-rasimu-1.css"
+            isbn-print: ""
+            isbn-epub: ""
+            uuid: ""
+    -
+        scope: # rasimu ya pili
+            path: "rasimu-2"
+        values:
+            book-title: "Rasimu ya Katiba ya Jamhuri ya Muungano wa Tanzania"
+            language: "sw"
+            isbn-print: ""
+            isbn-epub: ""
+            uuid: ""
+    -
+        scope: # actual katiba
+            path: "current"
+        values:
+            book-title: "Katiba ya Jamhuri ya Muungano wa Tanzania"
+            language: "sw"
             isbn-print: ""
             isbn-epub: ""
             uuid: ""
