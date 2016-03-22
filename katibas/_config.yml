@@ -5,7 +5,7 @@ publisher: "Publisher name"
 publisher-url: "http://example.com"
 
 # The name of the series of books in this folder.
-name: "Collection name"
+name: "Katiba za Jamhuri ya Muungano wa Tanzania"
 
 # A one-liner about this series. Useful for Open Graph metadata.
 description: "A description of this series"
@@ -14,13 +14,13 @@ description: "A description of this series"
 # To understand what language tags to use, read: http://www.w3.org/International/articles/language-tags/ 
 # For the registry of tags: http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry 
 # Useful lookup tool: http://r12a.github.io/apps/subtags/
-language: en
+language: sw
 
 # Leave this unchanged as http://localhost:4000 unless you really know what you're doing here. This is the URL that Jekyll will run at by default locally.
 url: http://localhost:4000
 
 # Change this to the name of your series folder, e.g. /my-cool-books
-baseurl: "" # If you're using GitHub Pages, make this the name of your repo, e.g. /electric-book-workflow
+baseurl: "/Katiba" # If you're using GitHub Pages, make this the name of your repo, e.g. /electric-book-workflow
 
 # Leave this unchanged as kramdown unless you really know how and why to change your markdown processor
 markdown: kramdown
@@ -48,7 +48,7 @@ defaults:
             path: ""
         values:
             author: "Author name"
-            language: "en"
+            language: "sw"
             publication-date: "2015-12-01"
             layout: "default"
 #            layout: "epub"
@@ -57,7 +57,7 @@ defaults:
             stylesheet-web: "web.css"
             stylesheet-epub: "epub.css"
             contents: "0-3-contents.html"
-            language: "en"
+            language: "sw"
             isbn-print: ""
             isbn-epub: ""
             uuid: ""
@@ -65,10 +65,13 @@ defaults:
             description: ""
     -
         scope: # Now enter details for your first book. The `path` is the book's folder. The `values` are specific to the book in that folder. Add values to override the defaults above per book. Remember to indent with spaces, not tabs, for valid YAML.
-            path: "book"
+            path: "rasimu-1"
         values:
-            book-title: "Book title"
-            language: "en"
+            book-title: "Rasimu ya Katiba ya Jamhuri ya Muungano wa Tanzania"
+            language: "sw"
+            stylesheet-print: "print-rasimu-1.css"
+            stylesheet-web: "web-rasimu-1.css"
+            stylesheet-epub: "epub-rasimu-1.css"
             isbn-print: ""
             isbn-epub: ""
             uuid: ""
