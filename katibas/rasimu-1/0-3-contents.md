@@ -8,7 +8,7 @@ published: true
 
 # Contents
 1. [UTANGULIZI](0-utangulizi.html)
-1. [Sura Ya 1: Jamhuri Ya Muungano Wa Tanzania (Ibara 1 - 6)](1.html#sura-ya-kwanza-jamhuri-ya-muungano-wa-tanzania)
+1. [Sura Ya Kwanza: Jamhuri Ya Muungano Wa Tanzania (Ibara 1 - 6)](1.html#sura-ya-kwanza-jamhuri-ya-muungano-wa-tanzania)
 	1.	[Sehemu ya Kwanza: Jina, Mipaka, Alama, Lugha na Tunu za Taifa](1.html#jina-mipaka-alama-lugha-na-tunu-za-taifa)
     	1.	[1. Jamhuri ya Muungano wa Tanzania](1.html#1-jamhuri-ya-muungano-wa-tanzania)
       	1.	[2. Eneo la Jamhuri ya Muungano wa Tanzania](1.html#2-eneo-la-jamhuri-ya-muungano-wa-tanzania)
