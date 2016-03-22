@@ -1,7 +1,6 @@
 ---
 title: Contents
 style: "contents-page"
-published: true
 ---
 
 
