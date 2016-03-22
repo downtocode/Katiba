@@ -37,3 +37,5 @@ published: true
 		4.	[19. Utekelezaji Wa Malengo Ya Taifa](2.html#19-utekelezaji-wa-malengo-ya-taifa)
 		5.	[20. Tume Ya Sayansi Na Teknolojia](2.html#20-tume-ya-sayansi-na-teknolojia)
 		6.	[21. Matumizi Ya Masharti Ya Sura Ya Pili](2.html#21-matumizi-ya-masharti-ya-sura-ya-pili)
+	1.	[Sehemu Ya Tano: Sera Ya Mambo Ya Nje](2.html#sehemu-ya-tano-sera-ya-mambo-ya-nje)
+		1.	[22. Sera Ya Mambo Ya Nje](2.html#22-sera-ya-mambo-ya-nje)
