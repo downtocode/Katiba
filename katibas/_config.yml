@@ -37,8 +37,8 @@ sass:
 # Useful for temporarily speeding up processing for particular files.
 exclude: [
 #css,
-#book-one,
-#book-two
+rasimu-2,
+current
 ]
 
 # These are default YAML values that apply to multiple documents. (For technical details, see http://jekyllrb.com/docs/configuration/#front-matter-defaults).
