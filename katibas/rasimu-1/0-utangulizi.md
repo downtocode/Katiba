@@ -1,3 +1,8 @@
+---
+title: Utangulizi
+style: frontmatter
+---
+
 #UTANGULIZI
 
 **KWA KUWA,** sisi wananchi wa Jamhuri ya Muungano wa Tanzania tumeamua rasmi na kwa dhati kujenga katika nchi yetu jamii inayoheshimu na kuzingatia misingi ya utu na udugu, uhuru, kujitegemea, haki, usawa, amani na utulivu, umoja na mshikamano katika nyanja zote za maisha yetu;
