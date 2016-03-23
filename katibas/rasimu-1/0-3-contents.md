@@ -5,7 +5,7 @@ style: "contents-page"
 
 
 
-# Contents
+# Yaliyomo
 1. [UTANGULIZI](0-utangulizi.html)
 1. [Sura Ya Kwanza: Jamhuri Ya Muungano Wa Tanzania (Ibara 1 - 6)](1.html#sura-ya-kwanza-jamhuri-ya-muungano-wa-tanzania)
 	1.	[Sehemu ya Kwanza: Jina, Mipaka, Alama, Lugha na Tunu za Taifa](1.html#jina-mipaka-alama-lugha-na-tunu-za-taifa)
