@@ -3,9 +3,9 @@
 
 The Katiba Project aims to make the constitution of The United Republic of Tanzania easily accessible to everyone. There are three different versions of the constitution planned for this initial phase:
 
-1. [The current/active constitution.](https://github.com/downtocode/Katiba/tree/master/katibas/current)
+1. The current/active constitution.
 1. [The Judge Warioba Draft.](https://github.com/downtocode/Katiba/tree/master/katibas/rasimu-1)
-2. [The Second Draft.](https://github.com/downtocode/Katiba/tree/master/katibas/rasimu-2)
+2. The Second Draft.
 
 ### A few things to note:
 
