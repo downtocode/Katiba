@@ -7,9 +7,9 @@ style: "chapter page-1"
 
 ## Nyongeza Ya Kwanza
 
-##### **(Imetajwa katika Ibara ya 74(3))**
+###### **_(Imetajwa katika Ibara ya 74(3))_**
 
-###### Mambo Ya Muungano
+##### Mambo Ya Muungano
 
 1. Katiba na Mamlaka ya Jamhuri ya Muungano wa Tanzania.
 1. Mambo ya nje.
@@ -30,16 +30,16 @@ style: "chapter page-1"
 
 ## Nyongeza Ya Pili
 
-##### **__(Imetajwa katika Ibara ya 134(1)(b))__**
+###### **_(Imetajwa katika Ibara ya 134(1)(b))_**
 
-__(Sheria ambazo mabadiliko yake yanahitaji kuungwa mkono na theluthi mbili ya Wabunge wote kutoka Tanzania Bara na theluth__
+__(Sheria ambazo mabadiliko yake yanahitaji kuungwa mkono na theluthi mbili ya Wabunge wote kutoka Tanzania Bara na theluthi mbili ya Wabunge wote kutoka Tanzania Bara na theluthi mbili ya Wabunge wote kutoka Zanzibar)__
 
 1. Muswada wa sheria wa kubadili masharti ya Katiba ya Jamhuri ya Muungano yanayohusu Mambo ya Muungano.
 1. Kuongeza au kupunguza jambo lolote la Muungano.
 
 ## Nyongeza Ya Tatu
 
-##### **__(Imetajwa katika Ibara ya 134(1)(c))__**
+###### **_(Imetajwa katika Ibara ya 134(1)(c))_**
 
 __(Mambo ambayo mabadiliko yake yanahitaji kuungwa mkono kwa zaidi ya nusu ya kura halali zilizopigwa na wananchi wa Tanzania Bara, na zaidi ya nusu ya kura halali zilizopigwa na wananchi wa Tanzania Zanzibar katika kura ya maoni)__
 
