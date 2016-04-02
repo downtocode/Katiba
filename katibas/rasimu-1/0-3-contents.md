@@ -360,7 +360,6 @@ style: "contents-page"
 		2. [294. Utekelezaji Wa Masharti Ya Katiba Mpya](19.html#294-utekelezaji-wa-masharti-ya-katiba-mpya)
 		3. [295. Kamati Ya Utekelezaji Wa Katiba](19.html#295-kamati-ya-utekelezaji-wa-katiba)
 		4. [296. Kufutwa Kwa Masharti Yatokanayo Na Masharti Ya Mpito](19.html#296-kufutwa-kwa-masharti-yatokanayo-na-masharti-ya-mpito)
-1.	[Sura Ya Kumi Na Tisa: Masharti Yatokanayo Na Masharti Ya Mpito](19.html#sura-ya-kumi-na-tisa-masharti-yatokanayo-na-masharti-ya-mpito)
 1.	[Nyongeza Ya Kwanza](nyongeza-1.html#nyongeza-ya-kwanza)
 1.	[Nyongeza Ya Pili](nyongeza-2.html#nyongeza-ya-pili)
 1.	[Nyongeza Ya Tatu](nyongeza-3.html#nyongeza-ya-tatu)
