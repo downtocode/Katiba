@@ -309,7 +309,7 @@ style: "contents-page"
 	3. [252. Tume Ya Pamoja Ya Fedha](16.html#252-tume-ya-pamoja-ya-fedha)
 	4. [253. Mfuko Mkuu Wa Hazina](16.html#253-mfuko-mkuu-wa-hazina)
 	5. [254. Masharti Ya Kutoa Fedha Za Matumizi Katika Mfuko Mkuu Wa Hazina](16.html#254-masharti-ya-kutoa-fedha-za-matumizi-katika-mfuko-mkuu-wa-hazina)
-	6. [255. Utaratibu Wa Kuidhinisha Matumizi Ya Fedha Zilizomo Katika Mfuko Mkuu Wa](16.html#255-utaratibu-wa-kuidhinisha-matumizi-ya-fedha-zilizomo-katika-mfuko-mkuu-wa)
+	6. [255. Utaratibu Wa Kuidhinisha Matumizi Ya Fedha Zilizomo Katika Mfuko Mkuu Wa Hazina](16.html#255-utaratibu-wa-kuidhinisha-matumizi-ya-fedha-zilizomo-katika-mfuko-mkuu-wa-hazina)
 	7. [256. Utaratibu Wa Kuidhinisha Matumizi Ya Fedha Kabla Ya Sheria Inayohusu Matumizi Ya](16.html#256-utaratibu-wa-kuidhinisha-matumizi-ya-fedha-kabla-ya-sheria-inayohusu-matumizi-ya)
 	8. [257. Mfuko Wa Matumizi Ya Dharura](16.html#257-mfuko-wa-matumizi-ya-dharura)
 	9. [258. Mishahara Ya Baadhi Ya Watumishi Kudhaminiwa Na Mfuko Mkuu Wa Hazina](16.html#258-mishahara-ya-baadhi-ya-watumishi-kudhaminiwa-na-mfuko-mkuu-wa-hazina)
