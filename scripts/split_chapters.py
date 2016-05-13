@@ -1,6 +1,10 @@
 # -*- coding: utf-8 -*-
 import re
 
+'''
+This script reads katiba_intermed_1.txt and splits every chapter into a
+separate .txt file. Chapter i text is sent to i.txt etc.
+'''
 with open('katiba_intermed_1.txt') as f:
     # iterate through lines to the second appearance
     # of SURA YA KWANZA i.e. the actual starting point
