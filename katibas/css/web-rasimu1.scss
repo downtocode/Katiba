@@ -34,11 +34,11 @@
 // Set variables
 // -------------
 
-$font-text-main: "Linux Libertine", serif;
-$font-text-secondary: "Source Sans Pro", sans-serif;
-$font-display-main: "Source Sans Pro", sans-serif;
-$font-display-secondary: "Linux Libertine", serif;
-$font-code: "Inconsolata", monospace;
+$font-text-main: "Noto Serif", "PT Serif", "DejaVu Serif", "Liberation Serif", serif;
+$font-text-secondary: "Noto Sans", "PT Sans", "DejaVu Sans", "Liberation Sans", sans-serif;
+$font-display-main: "Noto Sans", "PT Sans", "DejaVu Sans", "Liberation Sans", sans-serif;
+$font-display-secondary: "Noto Sans", "PT Sans", "DejaVu Sans", "Liberation Sans", sans-serif;
+$font-code: monospace;
 
 $font-size-default: 1.2em;
 $line-height-default: 150%;
@@ -47,9 +47,9 @@ $line-height-default: 150%;
 // Import font files (@font-face) for fonts you specify
 // ----------------------------------------------------
 
-@import "fonts/linux-libertine";
-@import "fonts/source-sans-pro";
-@import "fonts/inconsolata";
+// @import "fonts/linux-libertine";
+// @import "fonts/source-sans-pro";
+// @import "fonts/inconsolata";
 // @import "font-crimson";
 
 // -------------------
@@ -65,9 +65,96 @@ $line-height-default: 150%;
 
 // Add any custom style rules here.
 
-// E.g. uncomment the following lines to use space between paragraphs rather than text indents.
-//p {
-//    margin-bottom: 1em;
-//    text-indent: 0;
-//}
+// Add any custom style rules here.
+
+// General typography
+p, ul, ol, dl {
+	text-indent: 0;
+	margin-bottom: 1em;
+}
+
+// Blockquotes
+
+blockquote {
+	border-left: 3px solid silver;
+	padding-left: 1.75em;
+}
+blockquote.figure {
+	border: 0;
+}
+
+// Note blockquotes
+
+blockquote.note {
+	padding: 0;
+	border: 0;
+	p {
+		margin: 0 0 1em 0;
+		font-style: italic;
+	}
+}
+
+// Lists
+
+ul, ol {
+	padding-left: 1em;
+}
+
+// Nested ordered lists
+ol li {
+	list-style-type: decimal;
+}
+ol li li {
+	list-style-type: lower-alpha;
+}
+ol li li li {
+    list-style-type: lower-roman;
+}
+// Nested ordered lists in blockquotes in lists
+ol li blockquote li {
+	list-style-type: decimal;
+}
+ol li blockquote li li {
+	list-style-type: lower-alpha;
+}
+ol li blockquote li li li {
+	list-style-type: lower-roman;
+}
+// Paragraphs within lists (e.g. s239)
+li ol + p {
+    margin-top: 1em;
+}
+
+// Home page
+
+.home #nav-bar {
+	display: block;
+	background-image: url("images/sa-flag-colour-blocks.png");
+}
+.home #nav-bar p {
+	visibility: hidden;
+}
+.home .footer-content {
+    display: none;
+}
+
+// Contents page
+
+.contents-page ol li {
+    list-style-type: none;
+}
+.contents-page li {
+    margin: 1em 0 0 0;
+    font-weight: bold;
+}
+.contents-page li li {
+    font-weight: normal;
+    border-top: 0;
+    margin: 0 0 0 1em;
+}
+.contents-page .subhead {
+	display: block;
+	margin-top: 1em;
+	font-style: italic;
+}
 
