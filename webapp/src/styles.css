@@ -1,0 +1,56 @@
+/* You can add global styles to this file, and also import other style files */
+h1 {
+	border-bottom: 1px solid #bebebe;
+	padding-bottom: 25px;
+}
+
+.block {
+    margin-top: 35px;
+}
+
+.block markdown {
+	font-size: 1.4em;
+	line-height: 40px;
+	color: #4d4d4d;
+}
+
+.block markdown h3,
+.block markdown h2,
+.block markdown h1 {
+    font-weight: bold;
+}
+
+.block markdown .sura-header {
+    text-align: center;
+}
+
+.block markdown h1 {
+    font-size: 2.25rem;
+    line-height: 40px;
+}
+
+.block markdown h2 {
+    font-size: 2rem;
+}
+
+.block markdown h3 {
+    font-size: 1.75rem;
+}
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+span.header-link {
+	display: none;
+    position: relative;
+    left: 10px;
+    top: 3px;
+}
+
+h3:hover span.header-link {
+	display: inline;
+}
+
+.header-link i.material-icons {
+    color: #4d4d4d;
+}

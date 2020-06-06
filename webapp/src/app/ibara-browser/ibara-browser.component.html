@@ -1,0 +1,9 @@
+<div class="row">
+    <nav class="col-md-3">
+        <ul class="nav nav-pills default-pills smooth-scroll nav-stacked">
+            <li *ngFor="let link of this.currentIbaras" class="nav-item">
+                <a class="nav-link" href="{{link.href}}">{{link.displayText}}</a>
+            </li>
+        </ul>
+    </nav>
+</div>
