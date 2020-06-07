@@ -1,6 +1,12 @@
 import { Component, OnInit, Output, EventEmitter } from '@angular/core';
 import { MarkdownService } from 'ngx-markdown';
 import { ActivatedRoute } from '@angular/router';
+import { CurrentIbara } from '../models/pageviewer.model';
+import { Store } from '@ngrx/store';
+import { loaded } from '../actions/pageviewer.actions';
+import { Observable } from 'rxjs';
+import { map, shareReplay } from 'rxjs/operators';
+import { BreakpointObserver, Breakpoints } from '@angular/cdk/layout';
 
 @Component({
 	selector: 'app-pageviewer',
@@ -9,11 +15,18 @@ import { ActivatedRoute } from '@angular/router';
 })
 export class PageviewerComponent implements OnInit {
 	
-	constructor(private route: ActivatedRoute, private markdownService: MarkdownService) { }
+	constructor(private route: ActivatedRoute, private markdownService: MarkdownService, private store: Store,
+		private breakpointObserver: BreakpointObserver) { }
 
 	markdown: string;
-	currentIbaras: { href: string, displayText: string }[];
+	currentIbaras: CurrentIbara[];
 	currentPage: string;
+
+	isHandset$: Observable<boolean> = this.breakpointObserver.observe(Breakpoints.Handset)
+    .pipe(
+      map(result => result.matches),
+      shareReplay()
+    );
 
 	@Output()
 	pageViewerLoaded = new EventEmitter();
@@ -29,7 +42,7 @@ export class PageviewerComponent implements OnInit {
 			if (level === 1) {
 				h1Style = "sura-header"
 			}
-			return '<h' + level + ' id="' + escapedText + (h1Style.length > 0 ? ('" class="' + h1Style + '">') : '">') +
+			return  '<h' + level + ' id="' + escapedText + (h1Style.length > 0 ? ('" class="' + h1Style + '">') : '">') +
 					text +
 					'<a href="pages/' + this.currentPage + '#' + escapedText + '">' +
 					'<span class="header-link"><i class="material-icons">link</i></span>' +
@@ -104,6 +117,7 @@ export class PageviewerComponent implements OnInit {
 					break;
 			}
 			this.collectAllIbaras(page);
+			this.store.dispatch(loaded({pageNum: this.currentPage, currentIbaras: this.currentIbaras}));
 		});
 	}
 	
@@ -114,10 +128,9 @@ export class PageviewerComponent implements OnInit {
 		matches.forEach(match => {
 			this.currentIbaras.push(this.getIbaraLiElement(page, match));
 		});
-		this.pageViewerLoaded.emit(this.currentIbaras);
 	}
 
-	private getIbaraLiElement(page: string, regexMatch: string): {href: string, displayText: string} {
+	private getIbaraLiElement(page: string, regexMatch: string): CurrentIbara {
 		let href = regexMatch.toLowerCase().replace(/[^a-zA-Z]+/g, '-');
 		if (href[0] === '-') {
 			href = href.replace('-', '');

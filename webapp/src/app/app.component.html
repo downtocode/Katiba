@@ -1,5 +1,10 @@
 <!--The content below is only a placeholder and can be replaced.-->
-<div class="block">
-    <router-outlet></router-outlet>
-    <app-ibara-browser></app-ibara-browser>
+<div class="block row">
+    <div class="col-md-9">
+        <i class="material-icons" (click)="this.goHome()">home</i>
+        <router-outlet></router-outlet>
+    </div>
+    <div class="col-md-2">
+        <app-ibara-browser></app-ibara-browser>
+    </div>
 </div>
